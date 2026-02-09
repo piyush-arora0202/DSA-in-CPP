@@ -1,3 +1,8 @@
+// Problem: Book Allocation
+// Approach: Binary Search on Answer + Greedy
+// Time: O(n log sum)
+// Space: O(1)
+
 #include <iostream>
 #include <vector>
 using namespace std;
