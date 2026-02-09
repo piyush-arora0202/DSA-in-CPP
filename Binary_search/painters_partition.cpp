@@ -1,4 +1,4 @@
-// Time Complexity: O(n log n)
+// Time Complexity: O(n log sum)
 // Space Complexity: O(1)
 #include <iostream>
 #include <vector>
