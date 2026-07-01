@@ -23,3 +23,4 @@ int main() {
     cout << "Maximum Subarray Sum: " << maxSubArray(nums) << endl;
     return 0;
 }
+// use case is solving the MAXIMUM Subarray problem

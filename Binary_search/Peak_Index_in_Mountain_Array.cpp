@@ -5,6 +5,11 @@ using namespace std;
 class Solution{
 public:
     int peakIndexInMountainArray(vector<int> A) {
+        // edge cases
+        if(A.size() == 1) return 0;
+        if(A[0] > A[1]) return 0;
+        if(A[A.size()-1] > A[A.size()-2]) return A.size()-1;
+        // edge cases
         int st = 1 , end = A.size() - 2;
 
         while (st <= end) {
